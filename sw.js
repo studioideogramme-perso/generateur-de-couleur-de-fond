@@ -1,4 +1,4 @@
-const CACHE_NAME = 'couleurs-v3';
+const CACHE_NAME = 'couleurs-v2';
 const APP_FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 
 self.addEventListener('install', (event) => {
