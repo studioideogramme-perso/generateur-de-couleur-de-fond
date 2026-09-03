@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#2f6fdb">
+  <meta name="theme-color" content="#e63333">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -29,7 +29,7 @@
       overflow: hidden;
       cursor: pointer;
       user-select: none;
-      background-color: hsl(215 70% 55%);
+      background-color: hsl(0 70% 55%);
       transition: background-color 1.2s cubic-bezier(.22, 1, .36, 1);
     }
 
@@ -126,7 +126,7 @@
     }
 
     #saturation {
-      background: linear-gradient(90deg, #888, var(--saturation-color, #2f6fdb));
+      background: linear-gradient(90deg, #888, var(--saturation-color, #ff0000));
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -144,9 +144,9 @@
     <div class="control">
       <label class="control__label" for="hue">
         <span>Teinte</span>
-        <output class="control__value" id="hue-value" for="hue">215°</output>
+        <output class="control__value" id="hue-value" for="hue">0°</output>
       </label>
-      <input id="hue" type="range" min="0" max="360" value="215">
+      <input id="hue" type="range" min="0" max="360" value="0">
     </div>
     <div class="control">
       <label class="control__label" for="saturation">
